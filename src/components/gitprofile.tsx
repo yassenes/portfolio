@@ -211,12 +211,6 @@ const GitProfile = ({ config }: { config: Config }) => {
                     github={sanitizedConfig.github}
                     social={sanitizedConfig.social}
                   />
-                  {sanitizedConfig.skills.length !== 0 && (
-                    <SkillCard
-                      loading={loading}
-                      skills={sanitizedConfig.skills}
-                    />
-                  )}
                                     {sanitizedConfig.projects.github.display && (
                     <GithubProjectCard
                       header={sanitizedConfig.projects.github.header}
@@ -248,11 +242,10 @@ const GitProfile = ({ config }: { config: Config }) => {
                       educations={sanitizedConfig.educations}
                     />
                   )}
-                  
-                  {sanitizedConfig.publications.length !== 0 && (
-                    <PublicationCard
+                                    {sanitizedConfig.skills.length !== 0 && (
+                    <SkillCard
                       loading={loading}
-                      publications={sanitizedConfig.publications}
+                      skills={sanitizedConfig.skills}
                     />
                   )}
                   {sanitizedConfig.projects.external.projects.length !== 0 && (
