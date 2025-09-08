@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/',
+  base: '/portfolio',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -65,14 +65,14 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'yassenes',
+    dev: 'yassenes',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.yassenes.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'yassenes@gmail.com',
   },
   resume: {
     fileUrl:
